@@ -1,0 +1,3 @@
+git clone informe-link-do-projeto
+
+Obs.: Pode ser http e ssl.
