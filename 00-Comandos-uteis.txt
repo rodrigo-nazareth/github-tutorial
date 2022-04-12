@@ -1,0 +1,9 @@
+Para resetar o git "add .":
+git reset
+
+Renomeando um arquivo:
+git mv old-name new-name
+
+Movendo um arquivo de pasta:
+git mv c:\projetos\meu-arquivo.html d:\prj\meu-arquivo.html
+

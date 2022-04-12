@@ -1,0 +1,26 @@
+Configurações iniciais do git + vinculação do PC com github.
+
+https://www.youtube.com/watch?v=_hZf1teRFNg&t=717s
+(Tutorial Git e Github 2022 - Introdução prática para iniciantes)
+
+
+#### Configurando sua identificação no Git:
+git config --global user.name "seu nome"
+git config --global user.email "seu email cadastrado no github"
+
+Para conferir:
+git config --list
+
+
+#### Configurar chave SSH para o Github.
+Temos que gerar uma chave ssh na minha máquina.
+https://docs.github.com/pt/enterprise-cloud@latest/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+Comando para gerar a chave SSH:
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Depois acesse o arquivo "id_rsa.pub" que foi gerado.
+Copie a chave e cole no github.
+
+Para colar no github, acesse a opção SETTINGS que fica nos menus do usuário, depois na lateral direita vá para "SSH and GPG keys".
+Clique em "New SSH Key", dê o nome do PC no campo "Title" e cole a chave SSL do seu PC no campo "KEY"
