@@ -1,4 +1,26 @@
-Adicionar o arquivo no git:
+### Primeiro commit/push:
+Adicionar o arquivo na staged:
+git add .
+ou
+git add "nome-arquivo"
+
+Commitar o arquivo:
+git commit -m "mensagem do commit"
+
+Mudando o nome da branch para "main":
+git branch -M main
+
+Vinculando a pasta local a pasta do github:
+git remote add origin git@github.com:seuusuario/seurepositorio.git
+
+Push para o github:
+git push -u origin main
+
+
+
+### Demais commits/puhs:
+
+Adicionar o arquivo na staged:
 git add .
 ou
 git add "nome-arquivo"
